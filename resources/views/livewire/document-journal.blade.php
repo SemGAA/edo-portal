@@ -52,8 +52,10 @@
     </div>
 
     <div class="relative">
-        <div wire:loading.delay class="absolute inset-0 z-10 flex items-center justify-center bg-white/70 text-sm font-medium text-slate-600 backdrop-blur-sm">
-            Обновляем журнал...
+        <div wire:loading.delay class="absolute inset-0 z-10 bg-white/70 text-sm font-medium text-slate-600 backdrop-blur-sm">
+            <div class="flex h-full items-center justify-center">
+                Обновляем журнал...
+            </div>
         </div>
 
         <div class="overflow-x-auto">

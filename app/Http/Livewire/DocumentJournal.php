@@ -24,7 +24,7 @@ class DocumentJournal extends Component
 
     protected string $paginationTheme = 'tailwind';
 
-    protected array $queryString = [
+    protected $queryString = [
         'search' => ['except' => ''],
         'categoryId' => ['as' => 'category_id', 'except' => null],
         'status' => ['except' => ''],
